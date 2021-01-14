@@ -1,0 +1,27 @@
+@font-face {
+    font-family: Quicksand;
+    src: url('../font/Quicksand-Regular.ttf');
+}
+
+body {
+    font-family: Quicksand;
+}
+
+html,
+body,
+app-root,
+#page {
+    height: 100%;
+}
+
+#logout {
+    position: absolute;
+    bottom: 10px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.topbar .dropdown {
+    top: 50%;
+    transform: translateY(-50%);
+}
