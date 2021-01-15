@@ -1,64 +1,71 @@
-<!-- Header Mobile -->
-<app-header-mobile></app-header-mobile>
-<!-- Header Mobile -->
+<ng2-toasty [position]="'top-right'"> </ng2-toasty>
 
-<!-- Main -->
-<div id="page" class="d-flex flex-column flex-root">
+<router-outlet name="login" *ngIf="!loggedUser">
+</router-outlet>
 
-    <!-- Page -->
-    <div class="d-flex flex-row flex-column-fluid page">
+<div class="div-app" *ngIf="loggedUser">
 
-        <!-- Aside Menu -->
-        <app-aside></app-aside>
-        <!-- Aside Menu -->
+    <!-- Header Mobile -->
+    <app-header-mobile></app-header-mobile>
+    <!-- Header Mobile -->
 
-        <!-- Wrapper -->
-        <div id="kt_wrapper" class="d-flex flex-column flex-row-fluid wrapper">
+    <!-- Main -->
+    <div id="page" class="d-flex flex-column flex-root">
 
-            <!-- Header -->
-            <app-header></app-header>
-            <!-- Header -->
+        <!-- Page -->
+        <div class="d-flex flex-row flex-column-fluid page">
 
-            <!-- Content -->
-            <div id="kt_content" class="content  d-flex flex-column flex-column-fluid">
+            <!-- Aside Menu -->
+            <app-aside></app-aside>
+            <!-- Aside Menu -->
 
-                <!-- Subheader -->
-                <app-subheader></app-subheader>
-                <!-- Subheader -->
+            <!-- Wrapper -->
+            <div id="kt_wrapper" class="d-flex flex-column flex-row-fluid wrapper">
 
-                <div class="d-flex flex-column-fluid">
-                    <!-- Container -->
-                    <div class=" container ">
+                <!-- Header -->
+                <app-header></app-header>
+                <!-- Header -->
 
-                        <router-outlet></router-outlet>
+                <!-- Content -->
+                <div id="kt_content" class="content  d-flex flex-column flex-column-fluid">
 
+                    <!-- Subheader -->
+                    <app-subheader></app-subheader>
+                    <!-- Subheader -->
+
+                    <div class="d-flex flex-column-fluid">
+                        <!-- Container -->
+                        <div class=" container ">
+
+                            <router-outlet></router-outlet>
+
+                        </div>
+                        <!-- Container -->
                     </div>
-                    <!-- Container -->
+
                 </div>
+                <!-- Content -->
+
+                <!-- Footer -->
+                <app-footer></app-footer>
+                <!-- Footer -->
 
             </div>
-            <!-- Content -->
-
-            <!-- Footer -->
-            <app-footer></app-footer>
-            <!-- Footer -->
+            <!-- Wrapper -->
 
         </div>
-        <!-- Wrapper -->
+        <!-- Page -->
 
     </div>
-    <!-- Page -->
+    <!-- Main -->
 
-</div>
-<!-- Main -->
+    <!--  User Panel -->
+    <app-user-profile></app-user-profile>
+    <!--  User Panel -->
 
-<!--  User Panel -->
-<app-user-profile></app-user-profile>
-<!--  User Panel -->
-
-<!--Scrolltop -->
-<div id="kt_scrolltop" class="scrolltop">
-    <span class="svg-icon">
+    <!--Scrolltop -->
+    <div id="kt_scrolltop" class="scrolltop">
+        <span class="svg-icon">
       <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="24px" height="24px" viewBox="0 0 24 24" version="1.1">
 <g stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
   <polygon points="0 0 24 0 24 24 0 24"/>
@@ -67,5 +74,8 @@
 </g>
 </svg>
 </span>
+    </div>
+    <!--Scrolltop -->
+
+
 </div>
-<!--Scrolltop -->

@@ -9,6 +9,7 @@ body {
 
 html,
 body,
+.div-app,
 app-root,
 #page {
     height: 100%;
@@ -24,4 +25,16 @@ app-root,
 .topbar .dropdown {
     top: 50%;
     transform: translateY(-50%);
+}
+
+.form-group label {
+    color: #A4A8BF;
+}
+
+.fv-plugins-message-container .fv-help-block {
+    color: #F64E60;
+    font-size: 0.9rem;
+    font-weight: 400;
+    text-align: left;
+    padding-left: 20px;
 }

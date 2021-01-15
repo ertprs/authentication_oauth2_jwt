@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { ScriptService } from 'src/app/_service/script.service';
 
 @Component({
   selector: 'app-footer',
@@ -7,9 +8,12 @@ import { Component, OnInit } from '@angular/core';
 })
 export class FooterComponent implements OnInit {
 
-  constructor() { }
+  constructor(
+    private scriptService: ScriptService
+  ) { }
 
   ngOnInit(): void {
+    this.scriptService.loadExternalScript('./assets/js/footer.js').then(() => { }).catch(() => { });
   }
 
 }
