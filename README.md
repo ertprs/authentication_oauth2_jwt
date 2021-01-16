@@ -24,6 +24,7 @@ Conteúdos
 <div>
 <p align="left">Essa é uma pequena demonstração de autenticação utilizando Spring, oAuth2, JWT e Angular</p>
 <p align="left">Esse projeto terá continuidade e se transformará em um <b>Gerenciador de Equipamentos de Informática</b> e será atualizado em um curto período de tempo.</p>
+  <p align="left">Estou fazendo este projeto para ajudar dev's que queiram aprender mais sobre Java/Spring e Angular. Futuramente farei vídeos explicando cada módulo desenvolvido.</p>
 </div>
 
 </br></br></br></br>
