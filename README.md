@@ -138,8 +138,8 @@ Conteúdos
 <pre>
 <div>
 <p align="center">
-<a target="_blank" rel="noopener noreferrer" href="https://github.com/fmatheus21/authentication_oauth2_jwt/blob/main/_files/demonstracao.gif">
-<img src="https://github.com/fmatheus21/authentication_oauth2_jwt/blob/main/_files/demonstracao.gif" alt="Logo" style="max-width:100%;" ></a>
+<a target="_blank" rel="noopener noreferrer" href="https://github.com/fmatheus21/authentication_oauth2_jwt/blob/master/_files/demonstracao.gif">
+<img src="https://github.com/fmatheus21/authentication_oauth2_jwt/blob/master/_files/demonstracao.gif" alt="Logo" style="max-width:100%;" ></a>
 </p>
 </div>
 </pre>
