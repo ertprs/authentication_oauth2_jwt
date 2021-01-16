@@ -7,11 +7,14 @@ import { SharedModule } from './shared/shared.module';
 import { CoreModule } from './core/core.module';
 import { ToastyModule } from 'ng2-toasty';
 import { JwtHelperService, JwtModule } from '@auth0/angular-jwt';
-import { HttpClientModule } from '@angular/common/http';
+import { HttpClientModule, HTTP_INTERCEPTORS } from '@angular/common/http';
 import { DashboardModule } from './dashboard/dashboard.module';
 import { LoginModule } from './login/login.module';
 import { User } from './_model/user';
 import { AuthGuard } from './_guard/auth.guard';
+import { LoaderModule } from './loader/loader.module';
+import { LoaderInterceptor } from './_interceptor/loader.interceptor';
+import { LoaderService } from './_service/loader.service';
 
 export function tokenGetter() {
   return localStorage.getItem("token");
@@ -29,6 +32,7 @@ export function tokenGetter() {
     SharedModule,
     DashboardModule,
     LoginModule,
+    LoaderModule,
     ToastyModule.forRoot(),
     JwtModule.forRoot({
       config: {
@@ -36,12 +40,14 @@ export function tokenGetter() {
         allowedDomains: ['localhost:8083/api'],
         disallowedRoutes: []
       }
-    })
+    }),
   ],
   providers: [
     User,
     JwtHelperService,
-    AuthGuard
+    AuthGuard,
+    LoaderService,
+    { provide: HTTP_INTERCEPTORS, useClass: LoaderInterceptor, multi: true }
   ],
   bootstrap: [AppComponent]
 })

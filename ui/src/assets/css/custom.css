@@ -3,6 +3,10 @@
     src: url('../font/Quicksand-Regular.ttf');
 }
 
+:root {
+    --color-red: #F64E60;
+}
+
 body {
     font-family: Quicksand;
 }
@@ -32,9 +36,19 @@ app-root,
 }
 
 .fv-plugins-message-container .fv-help-block {
-    color: #F64E60;
+    color: var(--color-red);
     font-size: 0.9rem;
     font-weight: 400;
     text-align: left;
     padding-left: 20px;
+}
+
+.btn:disabled {
+    cursor: no-drop;
+}
+
+.validation-error {
+    text-align: left;
+    padding-left: 10px;
+    color: var(--color-red);
 }
