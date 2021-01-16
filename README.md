@@ -106,7 +106,8 @@ Conteúdos
 </br>
 <p align="left">No terminal, execute npm install, isso instalará todas as dependências do projeto. Após, execute ng serve, por padrão a aplicação rodará na porta 4200, caso queira alterar a porta, execute ng serve --port 8080</p>  
 <h5><b>IMPORTANTE</b></h5>
-<p align="left">Se executar o prjeto em outra porta que não seja 4200, você precisará alterar a Origem Permitida no arquivo <b>application.properties</b> na API</P>
+<p align="left">Se executar o prjeto em outra porta que não seja 4200, você precisará alterar a Origem Permitida no arquivo <b>application.properties</b> na API</p>
+<p>Foi utilizada a Dashboard Metronic da <a href="https://keenthemes.com/metronic/" target="_blank">KeenThemes</a> que possui uma Licença, então, só a utilize para fins de estudo. Não use comercialmente!</p>
 </div>
 
 </br></br>
@@ -128,7 +129,11 @@ Conteúdos
 <img src="https://img.shields.io/static/v1?label=rxjs&message=6.5.4&color=green"/>
 <img src="https://img.shields.io/static/v1?label=rxjs-compat&message=6.6.3&color=green"/>
 <img src="https://img.shields.io/static/v1?label=bootstrap&message=4.5.3&color=green"/>
+
+<img src="https://img.shields.io/static/v1?label=metronic&message=7.0.8&color=green"/>
 </div>
+
+
 
 </br></br>
 
