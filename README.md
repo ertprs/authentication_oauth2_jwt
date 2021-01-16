@@ -56,6 +56,8 @@ Conteúdos
 - [ ] Input de Equipamento
 - [ ] Output de Equipamento
 
+<p>Os itens marcados representam o que está pronto.</p>
+
 </br></br></br></br>
 
 
