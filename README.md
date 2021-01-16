@@ -140,11 +140,12 @@ Conteúdos
 <img src="https://img.shields.io/static/v1?label=swagger&message=2.6.0&color=green"/>
 <img src="https://img.shields.io/static/v1?label=angular&message=9&color=green"/>
   
-<img src="https://img.shields.io/static/v1?label=angular-jwt&message=4.0.3&color=green"/>
+<img src="https://img.shields.io/static/v1?label=angular-jwt&message=5.0.2&color=green"/>
 <img src="https://img.shields.io/static/v1?label=ng2-toasty&message=4.0.3&color=green"/>
 <img src="https://img.shields.io/static/v1?label=rxjs&message=6.5.4&color=green"/>
 <img src="https://img.shields.io/static/v1?label=rxjs-compat&message=6.6.3&color=green"/>
 <img src="https://img.shields.io/static/v1?label=bootstrap&message=4.5.3&color=green"/>
+<img src="https://img.shields.io/static/v1?label=ngx-loading&message=8.0.0&color=green"/>
 
 <img src="https://img.shields.io/static/v1?label=metronic&message=7.0.8&color=green"/>
 </div>
