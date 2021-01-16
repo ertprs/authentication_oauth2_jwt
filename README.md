@@ -41,10 +41,20 @@ Conteúdos
 - [x] Login
 - [ ] Logout
 - [ ] Recuperar Senha
-- [ ] Cadastro de Funcionários
-- [ ] Consulta de Funcionários
-- [ ] Cadastro de Equipamentos
-- [ ] Consulta de Equipamentos
+- [ ] Cadastro de Funcionário
+- [ ] Consulta de Funcionário
+- [ ] Cadastro de Equipamento
+- [ ] Consulta de Equipamento
+- [ ] Cadastro de Fornecedor
+- [ ] Consulta de Fornecedor
+- [ ] Cadastro de Categoria
+- [ ] Consulta de Categoria
+- [ ] Cadastro de Modelo
+- [ ] Consulta de Modelo
+- [ ] Cadastro de Usuário
+- [ ] Consulta de Usuário
+- [ ] Input de Equipamento
+- [ ] Output de Equipamento
 
 </br></br></br></br>
 
