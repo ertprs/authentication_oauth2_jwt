@@ -39,6 +39,10 @@ Conteúdos
 
 # Features
 - [x] Login
+- [ ] Logout
+- [ ] Recuperar Senha
+- [ ] Cadastro de Funcionários
+- [ ] Consulta de Funcionários
 - [ ] Cadastro de Equipamentos
 - [ ] Consulta de Equipamentos
 
